@@ -1,0 +1,15 @@
+<?php
+    include_once '../../../Model/class-conexao.php';
+    include_once '../../../Model/habitacao/RegularizacaoEtapas-model.php';
+
+    $database = new conexaoBD();
+    $db = $database->getConnection();
+
+    $etapasReg = new RegEtapas($db);
+
+    $data = json_decode(file_get_contents("php://input"));
+
+    $etapasReg->id = $data->id;
+
+    $etapasReg->delete();
+?>

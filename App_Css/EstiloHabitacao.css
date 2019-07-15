@@ -1,0 +1,120 @@
+#SecMenuHabitacao table tr {
+    background: none;
+}
+
+/* Bootsnip custom ConteudoSection */
+.panel-title .fa { margin-right:10px; }
+.panel-title .glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.Padding15 { padding: 15px }
+.panel-body .table {margin-bottom: 0px; }
+.customJumbotron{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e3e3e3;
+}
+p{font-size: 14px!important;}
+
+/* Titulo */
+h3{
+    color:#1A5493;
+}
+
+/* Linhas Hover */
+.panel-body table tr:hover{
+    background-color: #1A5493 !important;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+.panel-body table tr td a:hover{
+    color: #fff !important;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #1A5493;
+    border-color: #ddd;
+}
+
+/* Equipe Habitacao */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 198px;
+    height: 198px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/* noticias */
+.bg-profile{background-color: #3498DB !important;height: 150px;z-index: 1;}
+.bg-bottom{height: 100px;margin-left: 30px;}
+.img-profile{display: inline-block !important;background-color: #fff;border-radius: 6px;margin-top: -50%;padding: 1px;vertical-align: bottom;border: 2px solid #fff;-moz-box-sizing: border-box;box-sizing: border-box;color: #fff;z-index: 2;}
+.row-float{margin-top: -40px;}
+.explore a {color: green; font-size: 13px;font-weight: 600}
+.img-box{box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);border-radius: 2px;border: 0;}
+.row-noticia{padding-top: 20px; padding-bottom: 20px; border: 0; border-bottom: 1px solid #eee;}
+
+/* Botão disable */
+button:disabled {
+    background: #5bc0de !important;
+    cursor: not-allowed;
+}

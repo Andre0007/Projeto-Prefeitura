@@ -1,0 +1,31 @@
+.noPrint{ display: none; border: none; }
+.yesPrint{ display: block !important; }
+@media print {
+    * { margin: 0 !important; padding: 0 !important; }
+    #controls, .footer, .footerarea{ display: none; }
+    html, body {
+        height:100%; 
+        width: 100%;
+        background: #FFF; 
+        font-size: 8.5pt;
+    }
+    @page {
+       margin-left: 1px; 
+       margin-right: 31px; 
+    } 
+    table tbody tr td:nth-child(2){
+        width: 230px;
+    }
+    table tbody tr td:nth-child(3){
+        width: 230px;
+    }
+    table tbody tr td:nth-child(4){
+        font-size: 7.5pt;
+    }
+    table tbody tr td:nth-child(5){
+        width: 250px;
+    }
+    .panel {
+        border: none;
+    }
+}

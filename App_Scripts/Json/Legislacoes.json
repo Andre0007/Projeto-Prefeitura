@@ -1,0 +1,33 @@
+[
+    {
+        "ID":"1",
+        "nome":"Lei complementar cesta básica LC 324",
+        "url":"App_Uploads/Legislacao/Cesta-Basica-LC-324.pdf",
+        "data":"18/03/2009"
+    },{
+        "ID":"2",
+        "nome":"Lei complementar dos cargos públicos 356 (estatuto servidor público)",
+        "url":"App_Uploads/Legislacao/Lei-complementar-356.pdf",
+        "data":"09/04/2012"
+    },{
+        "ID":"3",
+        "nome":"Alteração do estatuto dos Servidores LC 359",
+        "url":"App_Uploads/Legislacao/Alteracao-do-Estatuto-dos-Servidores-LC-359.pdf",
+        "data":"06/06/2012"
+    },{
+        "ID":"4",
+        "nome":"Lei complementar Alteração da cesta básica",
+        "url":"App_Uploads/Legislacao/Alteracao-da-Cesta-Basica.pdf",
+        "data":"17/06/2013"
+    },{
+        "ID":"5",
+        "nome":"Regulamentação da cesta básica Decreto 7094",
+        "url":"App_Uploads/Legislacao/Regulamentacao-da-Cesta-Basica-Decreto-7094.pdf",
+        "data":"24/07/2014"
+    },{
+        "ID":"6",
+        "nome":"Programa de Recuperação Fiscal, LEI Nº 3.660 REFIS",
+        "url":"App_Uploads/Legislacao/Lei_3.660_REFIS.pdf",
+        "data":"08/03/2017"
+    }
+]

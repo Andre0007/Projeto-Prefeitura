@@ -1,7 +1,33 @@
-RewriteEngine On
+<IfModule mod_rewrite.c>
+    RewriteEngine On  
+    RewriteBase /
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteCond %{HTTP_HOST} ^mairipora.sp.gov.br [NC]
+    RewriteRule ^(.*)$ http://www.mairipora.sp.gov.br/ [L,R=301,NC]
+    RewriteRule ^home\/?$ index.php [NC,L]
+    RewriteRule ^imprensa-oficial\/?$ Imprensa-Oficial.php [NC,L]
+    RewriteRule ^legislacoes\/?$ Legislacoes.php [NC,L]
+    RewriteRule ^fale-conosco\/?$ Fale-Conosco.php [NC,L]
+    RewriteRule ^ouvidoria\/?$ Ouvidoria.php [NC,L]
+    RewriteRule ^horario-atendimento\/?$ Horario-Atendimento.php [NC,L]
+    RewriteRule ^lista-emails\/?$ Lista-Email.php [NC,L]
+    RewriteRule ^telefones-para-contato\/?$ Lista-Telefone.php [NC,L]
+    RewriteRule ^menu-de-servicos\/?$ Servicos.php [NC,L]
+    RewriteRule ^documentos-licitacao\/?$ Licitacao.php [NC,L]
+    RewriteRule ^lista-secretarias\/?$ Secretarias.php [NC,L]
+    RewriteRule ^lista-noticias\/?$ Lista-Noticias.php [NC,L]
+    RewriteRule ^lista-concursos-estagiario-mairipora\/?$ Lista-Concursos-Estagiarios.php [NC,L]
+    RewriteRule ^lista-concursos-editais-mairipora\/?$ Lista-Concursos-Editais.php [NC,L]
+    RewriteRule ^concursos\/?$ ConcursoPublico.php [NC,L]
+    RewriteRule ^sobre-prefeito-de-mairipora\/?$ Sobre-Prefeito.php [NC,L]
+    RewriteRule ^sobre-vice-prefeito-de-mairipora\/?$ Sobre-Vice-Prefeito.php [NC,L]
+    RewriteRule ^cadastro-de-fornecedores\/?$ CadastroFornecedores.php [NC,L]
+    RewriteRule ^painel-de-licitacoes\/?$ Painel-Licitacoes.php [NC,L]   
+    RewriteRule ^calendario-de-eventos-mairipora\/?$ Calendario-Eventos.php [NC,L]    
+    RewriteRule ^tabelas-repasse-recursos-federais\/?$ Repasse-Federal.php [NC,L]
+    RewriteRule ^secretaria-de-habitacao\/?$ Secretaria-Habitacao.php [NC,L] 
+    RewriteRule ^secretaria-do-meio-ambiente\/?$ Secretaria-MeioAmbiente.php [NC,L] 
+    RewriteRule ^audiencia-publica\/?$ Audiencia-Publica.php [NC,L]   
 
-RewriteRule ^(.+)$ index.php?path=$1 [QSA,L]
+    ErrorDocument 404 /404.php
+</IfModule>

@@ -1,0 +1,92 @@
+@media (min-width:767px){
+    .CustomVideo{
+        width: 73% !important;
+    }
+}
+
+@media (max-width:1200px){
+    .Lista-Servicos li a{
+        font-size: 10px !important;
+    }
+    .MenorNoMenu{
+        width: 150px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width:991px){
+    .MenorNoMenu{
+        width: 100px;
+        line-height: 25px;
+    }
+    .Contatos{text-align: center !important;}
+}
+
+@media (max-width:767px){
+    .MenorNoMenu{
+        width: auto;
+        line-height: 25px;
+    }
+    .MenuPills a {
+        text-decoration: none;
+        color: #FFF;       
+        font-weight: bold;
+        text-shadow: 1px 0px 0px #054489, 
+        -1px 0px 0px #054489, 
+        0px 1px 0px #054489, 
+        0px -1px 0px #054489;        
+    }
+}
+
+@media (max-width:767px){
+    .single_blog_archive {
+        background-color: #fff;
+        display: inline;
+        float: left;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .blog_img img {
+        height: 100%;
+        width:100%;
+        -webkit-transition: all 1s ease; /* Safari and Chrome */
+        -moz-transition: all 1s ease; /* Firefox */
+        -ms-transition: all 1s ease; /* IE 9 */
+        -o-transition: all 1s ease; /* Opera */
+        transition: all 1s ease;
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@media (max-width:767px){
+    .navbar-default .navbar-toggle {
+        border-color: #999;
+    }
+}
+
+@media(max-width:670px ){
+    .res_title{
+       font-size: 18px; 
+    }
+    .res_subtitle{
+       font-size: 15px; 
+    }
+}
+
+@media(max-width:360px ){
+    .error_page_content h1 {font-size: 70px;}
+    .error_page_content h2 {font-size: 40px;}
+    .error_page_content p {font-size: 17px;}
+    .error_page_content h1:after, .error_page_content h1:before {height: 15px;width: 15px;}
+    .error_page_content h1:after {right: -30px;}
+    .error_page_content h1:before {left: -30px;}
+    .feed_tabs li a {font-size: 14px;}
+    .blog_title {font-size: 15px;line-height: 19px;}
+    .blog_readmore {font-size: 14px;}
+}
+
+.modal-body-img img{
+    max-width: 100%;
+    height: auto;    
+}
